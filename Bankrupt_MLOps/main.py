@@ -36,7 +36,7 @@ class DataPredict(BaseModel):
 @app.post("/predict")
 def predict(request: DataPredict):
     """
-    Endpoint para recibir datos y generar predicciones con el modelo cargado.
+    Endpoint para la Predicción de Bancarrota de las empresas.
     """
     try:
         # Convertir los datos validados a un DataFrame
