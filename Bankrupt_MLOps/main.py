@@ -11,17 +11,19 @@ app = FastAPI()
 
 # Definición de las columnas usadas por el modelo
 MODEL_COLUMNS = [
-    'ROA(C) before interest and depreciation before interest',
-    'ROA(A) before interest and % after tax',
-    'ROA(B) before interest and depreciation after tax',
-    'Persistent EPS in the Last Four Seasons',
-    'Per Share Net profit before tax (Yuan ¥)',
-    'Debt ratio %',
-    'Net worth/Assets',
-    'Net profit before tax/Paid-in capital',
-    'Retained Earnings to Total Assets',
-    'Net Income to Total Assets'
+    ' ROA(C) before interest and depreciation before interest',
+    ' ROA(A) before interest and % after tax',
+    ' ROA(B) before interest and depreciation after tax',
+    ' Persistent EPS in the Last Four Seasons',
+    ' Per Share Net profit before tax (Yuan ¥)',
+    ' Debt ratio %',
+    ' Net worth/Assets',
+    ' Net profit before tax/Paid-in capital',
+    ' Retained Earnings to Total Assets',
+    ' Net Income to Total Assets'
 ]
+
+
 
 # Clase para la validación del payload de entrada
 class DataPredict(BaseModel):
